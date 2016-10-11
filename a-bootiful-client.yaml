@@ -26,4 +26,4 @@ server.use-forward-headers: true
 
 test:
   'coucou': 'salut'
-  'toto': 'titi'
+  'toto': '{cipher}02245374dbc44e5c1eefcdc7dd8ea71fc173003460354de0b40c078d489dbbd4'
