@@ -1,7 +1,7 @@
 message: 'Hello World of Jeo2'
 #security.basic.enabled: false
 #security.ignored: '/**'
-securityuser.name: 'admin'
+security.user.name: 'admin'
 security.user.password: 'secret'
 
 # ----------------------------------------
