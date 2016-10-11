@@ -1,2 +1,28 @@
+message: 'Hello World of Jeo2'
+#security.basic.enabled=false
+#security.ignored=/**
+#security.user.name=admin
+#security.user.password=secret
+
+# ----------------------------------------
+# ACTUATOR PROPERTIES
+# ----------------------------------------
+
+# ENDPOINTS
+#endpoints.sensitive=true
+endpoints.health.sensitive: false
+
+# MANAGEMENT HTTP SERVER
+management.address: '127.0.0.1'
+management.port: 8081
+#management.security.roles=SUPERUSER
+#management.security.enabled=false
+
+server.use-forward-headers: true
+#server.tomcat.basedir=my-tomcat
+#server.tomcat.accesslog.enabled=true
+#server.tomcat.accesslog.pattern=%t %a "%r" %s (%D ms)
+
+
 test:
   'coucou': 'salut'
