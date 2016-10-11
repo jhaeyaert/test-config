@@ -9,7 +9,7 @@ security.ignored: '/**'
 # ----------------------------------------
 
 # ENDPOINTS
-#endpoints.sensitive=true
+endpoints.sensitive: true
 endpoints.health.sensitive: false
 
 # MANAGEMENT HTTP SERVER
