@@ -2,7 +2,7 @@ message: 'Hello World of Jeo2'
 #security.basic.enabled: false
 #security.ignored: '/**'
 securityuser.name: 'admin'
-security.user.password: '{cipher}1b38654adb780cc3a12f579d88a04f1ee2726d93928e6e15bc4c6f3b21393ffb'
+security.user.password: '{cipher}620183d8a5b4e3a3b9c73e63e80a181eb8bd7cb1795b56044b670c0809926102'
 
 # ----------------------------------------
 # ACTUATOR PROPERTIES
