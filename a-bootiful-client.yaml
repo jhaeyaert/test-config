@@ -1,8 +1,8 @@
 message: 'Hello World of Jeo2'
 #security.basic.enabled: false
-security.ignored: '/**'
-security.user.name: 'admin'
-security.user.password: '{cipher}1b38654adb780cc3a12f579d88a04f1ee2726d93928e6e15bc4c6f3b21393ffb'
+#security.ignored: '/**'
+#security.user.name: 'admin'
+#security.user.password: '{cipher}1b38654adb780cc3a12f579d88a04f1ee2726d93928e6e15bc4c6f3b21393ffb'
 
 # ----------------------------------------
 # ACTUATOR PROPERTIES
@@ -17,7 +17,7 @@ management.address: '127.0.0.1'
 management.port: 8081
 management.context-path: '/management'
 #management.security.roles=SUPERUSER
-management.security.enabled: true
+#management.security.enabled: true
 
 server.use-forward-headers: true
 #server.tomcat.basedir=my-tomcat
