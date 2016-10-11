@@ -26,3 +26,4 @@ server.use-forward-headers: true
 
 test:
   'coucou': 'salut'
+  'toto': 'titi'
