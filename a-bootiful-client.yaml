@@ -16,7 +16,7 @@ endpoints.health.sensitive: false
 management.address: '127.0.0.1'
 management.port: 8081
 #management.security.roles=SUPERUSER
-#management.security.enabled=false
+management.security.enabled: true
 
 server.use-forward-headers: true
 #server.tomcat.basedir=my-tomcat
