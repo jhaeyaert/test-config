@@ -33,5 +33,5 @@ test:
 hystrix:
    threadpool.default.coreSize: 50
    threadpool.default.maxQueueSize: 500
-   command.default.fallback.isolation.semaphore.maxConcurrentRequests: 100
+   command.default.fallback.isolation.semaphore.maxConcurrentRequests: 1000
    command.default.circuitBreaker.requestVolumeThreshold: 1000
