@@ -32,4 +32,4 @@ test:
 
 hystrix:
    command.default.fallback.isolation.semaphore.maxConcurrentRequests: 100
-   command.default.circuitBreaker.requestVolumeThreshold: 100
+   command.default.circuitBreaker.requestVolumeThreshold: 1000
