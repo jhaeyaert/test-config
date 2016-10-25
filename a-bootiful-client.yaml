@@ -1,4 +1,4 @@
-message: 'Hello World of Jeo2'
+message: 'Hello World of Jeo3'
 #security.basic.enabled: false
 #security.ignored: '/**'
 security.user.name: 'admin'
@@ -29,6 +29,8 @@ test:
   'coucou': 'salut'
   'toto': '{cipher}1b38654adb780cc3a12f579d88a04f1ee2726d93928e6e15bc4c6f3b21393ffb'
 
+feign:
+   httpclient.enabled: true
 
 hystrix:
    threadpool.default.coreSize: 50
